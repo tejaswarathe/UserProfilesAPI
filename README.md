@@ -3,11 +3,11 @@
 # UserList
 This API returns the list of all user profiles that has been created along with the profile pictures in 3 different sizes : small(100x100), large(200X200) and original.
 
-Request:
+**Request:**
 -    url = 'http://localhost/users/'
 
     
-Response:
+**Response:**
 - [
     {
         "name": "Jeff",
@@ -31,10 +31,10 @@ Response:
 # UserDetail
 This API return a single object in JSON format which includes a name and profile pictures in 3 sizes.
 
-Request:
+**Request:**
 -    url = 'http://localhost/users/name'
 
-Response:
+**Response:**
 {
     "name": "Jeff",
     "picture": {
@@ -48,8 +48,10 @@ Response:
 
 # UserCreate
 This API creates a new user and gives a POST request to the server creating a new user.
-Request:
+ **Request:**
 -    url = 'http://localhost/users/create/'
-Parameters:
+
+ **Parameters:**
+
 -   name
 -   image_upload
