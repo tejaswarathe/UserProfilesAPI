@@ -8,6 +8,7 @@ This API returns the list of all user profiles that has been created along with 
 
     
 **Response:**
+
  [
     {
         "name": "Jeff",
@@ -35,6 +36,7 @@ This API return a single object in JSON format which includes a name and profile
 -    url = 'http://localhost/users/name'
 
 **Response:**
+
 {
     "name": "Jeff",
     "picture": {
