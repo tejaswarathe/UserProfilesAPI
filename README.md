@@ -8,7 +8,7 @@ This API returns the list of all user profiles that has been created along with 
 
     
 **Response:**
- '[
+ [
     {
         "name": "Jeff",
         "picture": {
@@ -25,7 +25,7 @@ This API returns the list of all user profiles that has been created along with 
             "original": "http://localhost/users/profilepictures/6000195494285_R.jpg"
         }
     }
-]'
+]
 
 
 # UserDetail
