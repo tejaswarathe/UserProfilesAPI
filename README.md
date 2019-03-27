@@ -48,6 +48,7 @@ This API return a single object in JSON format which includes a name and profile
 
 # UserCreate
 This API creates a new user and gives a POST request to the server creating a new user.
+
  **Request:**
 -    url = 'http://localhost/users/create/'
 
