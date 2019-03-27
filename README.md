@@ -4,7 +4,7 @@
 This API returns the list of all user profiles that has been created along with the profile pictures in 3 different sizes : small(100x100), large(200X200) and original.
 
 Request:
--    url = 'http://localhost/users/name'
+-    url = 'http://localhost/users/'
 
     
 Response:
