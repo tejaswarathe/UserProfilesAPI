@@ -8,7 +8,7 @@ This API returns the list of all user profiles that has been created along with 
 
     
 **Response:**
-- [
+ [
     {
         "name": "Jeff",
         "picture": {
