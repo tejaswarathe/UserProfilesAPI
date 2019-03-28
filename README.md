@@ -1,5 +1,21 @@
 # UserProfilesAPI
 
+# Cloning the project
+
+Clone the repository in your local machine.
+
+Open the terminal from the project directory.
+
+Activate the virtual environ ment.
+
+`$ source env/bin/activate`
+
+Change directory to the outer Api directory and run the command.
+
+`$ python manage.py runserver`
+
+Visit the localhost link given in the terminal response.
+
 # UserList
 This API returns the list of all user profiles that has been created along with the profile pictures in 3 different sizes : small(100x100), large(200X200) and original.
 
