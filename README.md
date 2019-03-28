@@ -24,8 +24,8 @@ This API returns the list of all user profiles that has been created along with 
 
     
 **Response:**
-
-`[
+```
+[
     {
         "name": "Jeff",
         "picture": {
@@ -42,8 +42,8 @@ This API returns the list of all user profiles that has been created along with 
             "original": "http://localhost/users/profilepictures/6000195494285_R.jpg"
         }
     }
-]`
-
+]
+```
 
 # UserDetail
 This API return a single object in JSON format which includes a name and profile pictures in 3 sizes.
@@ -52,16 +52,16 @@ This API return a single object in JSON format which includes a name and profile
 -    url = 'http://localhost/users/name'
 
 **Response:**
-
-`{
+```
+{
     "name": "Jeff",
     "picture": {
         "detailthumbnail": "http://localhost/users/profilepictures/656541116464.detailthumbnail.jpg",
         "listthumbnail": "http://localhost/users/profilepictures/656541116464.listthumbnail.jpg",
         "original": "http://localhost/users/profilepictures/656541116464.jpg"
     }
-}`
-
+}
+```
 
 
 # UserCreate
